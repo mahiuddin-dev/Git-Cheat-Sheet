@@ -71,6 +71,7 @@
 | `git checkout <commit>`               | Switch to a specific commit (detached HEAD state).|
 | `git restore <file>`                  | Discard changes in the working directory.      |
 | `git reset <commit>`                  | Move the current branch to a specific commit.  |
+| `git reset HEAD~`                  | Undo the most recent commits  |
 | `git reset --soft <commit>`           | Move the branch pointer without changing staging area. |
 | `git reset --mixed <commit>`          | Move the branch pointer and reset staging area. |
 | `git reset --hard <commit>`           | Move the branch pointer, staging area, and working directory. |
